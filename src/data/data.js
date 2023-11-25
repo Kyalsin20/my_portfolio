@@ -3,7 +3,6 @@ import game from "../assets/images/game.svg";
 import dice from "../assets/images/dice.svg";
 import tindog from "../assets/images/tindog.svg";
 import drum from "../assets/images/drum.svg";
-import line from "../assets/images/line.svg";
 import edu from "../assets/images/edu.svg";
 import education from "../assets/images/education.svg";
 import languages from "../assets/images/languages.svg";
