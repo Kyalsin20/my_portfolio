@@ -1,0 +1,600 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  padding: 3rem;
+  padding-top: 70px;
+  background-image: url("./assets/images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-photo {
+  width: 85%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/images/background.png");
+  display: flex;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 100px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.477);
+}
+
+.custom-shape-divider-bottom-1698901603 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1698902764 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1698902764 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 138px;
+}
+
+.custom-shape-divider-top-1698902764 .shape-fill {
+  fill: #a6d9d797;
+}
+
+.nav__bar {
+  align-self: flex-end;
+}
+
+.name {
+  margin: 10px 50px 10px 0;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.pharagraph {
+  width: 100%;
+  margin-top: 250px;
+}
+
+.status,
+.me,
+.about-me {
+  margin: 10px 50px 10px 0;
+}
+.status,
+.me,
+.about-me,
+.caption,
+.info,
+.title,
+.edu__lgu__caption,
+nav a {
+  animation: slide-up 2.5s;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.782);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", sans-serif;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0.2;
+    line-height: 200px;
+  }
+  to {
+    opacity: 1;
+    line-height: 30px;
+  }
+}
+
+.name {
+  color: #9a6761;
+}
+
+.caption {
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
+.edu .project__title {
+  padding-bottom: 50px;
+}
+
+.mini_title {
+  padding-bottom: 20px;
+}
+
+.status {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.769);
+}
+
+.me {
+  font-size: 35px;
+  margin-top: 50px;
+  text-align: start;
+}
+
+.about-me {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.image {
+  height: 80vh;
+  position: relative;
+  top: 39px;
+}
+
+.logo {
+  object-fit: cover;
+  height: 100px;
+  padding: 10px 40px;
+}
+
+.skill {
+  margin-top: 30px;
+}
+
+.personal-info {
+  background-color: #e8dacd;
+}
+
+.Education__languages {
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.edu__lgu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.p_tag {
+  padding-left: 40px;
+}
+
+.side__arrow {
+  width: 40px;
+  padding-top: 50px;
+}
+
+.logo__size {
+  width: 100px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.project__design {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.project__design a {
+  display: flex;
+  justify-content: center;
+}
+
+.cards__info {
+  color: rgb(0, 0, 0);
+  padding: 50px 50px;
+  text-align: start;
+  margin: 0;
+}
+
+.sign {
+  width: 30px;
+}
+
+.edu__info {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  font-size: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+.projects a,
+.contacts {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.pr-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project {
+  padding: 100px 100px;
+}
+
+.projects {
+  width: 500px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  display: flex;
+  justify-items: center;
+}
+
+.cards__design {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards__info p {
+  line-height: 30px;
+}
+
+.cards {
+  /* background-image: url("./assets/images/background_blur.svg"); */
+  background-color: #f2e6df;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 30px 0 rgba(0, 0, 0, 0.477);
+}
+
+.project__design a .cards:hover {
+  box-shadow: 0 2px 8px 0 rgb(150, 77, 77), 0 3px 10px 0 rgb(150, 77, 77);
+}
+
+.contacts {
+  position: relative;
+  z-index: 50;
+  flex-wrap: wrap;
+  /* margin-bottom: 20px; */
+  background: rgb(210, 184, 161);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.576),
+    0 3px 10px 0 rgba(0, 0, 0, 0.405);
+}
+
+.contacts .via {
+  text-align: center;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons .button {
+  padding: 40px;
+  padding-top: 50px;
+}
+
+.button .btn {
+  background: #f2e6df;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 15px 40px 15px 40px;
+  margin-bottom: 100px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+}
+.btn:hover {
+  text-decoration: none;
+  box-shadow: 0 2px 8px 0 #e8dacd, 0 3px 10px 0 #e8dacd;
+}
+
+footer {
+  background-color: #e8dacd;
+}
+
+.ph__email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#contact {
+  padding: 50px 80px;
+}
+
+.ph__email .information {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.contects {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  text-align: center;
+  font-size: 30px;
+  background-color: #e8dacd;
+  height: 100%;
+}
+
+.contects .copyright,
+.contects .socialMedia {
+  margin: 70px;
+  font-size: small;
+  text-align: center;
+}
+
+.contects .copyright,
+.contects .socialMedia img {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  * {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+
+  .background {
+    padding-top: 70px;
+  }
+
+  .status {
+    overflow: hidden;
+  }
+
+  .me {
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .personal-info .info .skill {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .container-photo {
+    display: flex;
+    flex-direction: column;
+  }
+  .pharagraph {
+    width: 100%;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .project__caption {
+    overflow: hidden;
+  }
+
+  .project {
+    padding: 50px 0 0 0;
+    width: 150px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  a .cards__info .project__title {
+    position: relative;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+  }
+
+  .edu__lgu__caption {
+    width: 100%;
+    padding: 0;
+  }
+
+  .edu__info .p_tag {
+    margin: 0 0 50px 0;
+  }
+
+  .edu__lgu .edu__lgu__caption .mini_title {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .edu__info .edu__lgu__caption {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .contects .copyright,
+  .contects .socialMedia img {
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  * {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+
+  .background {
+    padding: 70px 20px 0;
+  }
+
+  .pharagraph {
+    padding: 20px;
+  }
+
+  .edu__lgu .side__arrow {
+    display: none;
+  }
+
+  .edu__lgu {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo__size {
+    padding: 50px 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .info a {
+    width: 400px;
+  }
+
+  .project__design {
+    padding: 0;
+  }
+
+  .edu__lgu__caption .mini_title {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .edu__info .edu__lgu__caption {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .cards__info {
+    padding: 50px;
+  }
+
+  .me {
+    text-align: center;
+  }
+
+  .contects,
+  .pharagraph {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards__info {
+    padding: 20px;
+  }
+
+  .project__title {
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+
+  .info a {
+    margin: 0;
+    padding: 0;
+  }
+
+  .name,
+  .status {
+    margin: 10px;
+  }
+
+  .caption,
+  .me,
+  .about-me {
+    margin: 20px;
+  }
+
+  .caption {
+    overflow: hidden;
+    font-size: 28px;
+  }
+
+  .info {
+    padding: 20px;
+  }
+
+  .contects .socialMedia,
+  .contects .copyright {
+    padding: 30px 20px;
+  }
+
+  .container-photo .image {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .buttons .button {
+    padding: 20px;
+  }
+
+  .buttons .button .btn {
+    padding: 10px 20px;
+    margin: 0;
+  }
+
+  .contects .socialMedia {
+    margin: 20px;
+    padding: 0;
+  }
+  .contects .copyright {
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .contects .copyright,
+  .contects .socialMedia img {
+    padding-right: 10px;
+  }
+}
